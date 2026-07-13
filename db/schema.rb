@@ -10,8 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2026_07_12_233240) do
+ActiveRecord::Schema[8.0].define(version: 2026_07_13_003559) do
   create_table "bookers", force: :cascade do |t|
+    t.string "title"
+    t.string "body"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "body"
     t.datetime "created_at", null: false
