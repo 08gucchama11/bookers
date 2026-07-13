@@ -2,7 +2,7 @@
   <%= flash.now[:notice] %>
 </div>
 
-<P>Title:<%= @book.title %></P>
-<P>Body:<%= @book.body %></P>
+<P class="show"><strong>Title:</strong><%= @book.title %></P>
+<P class="show"><strong>Body:</strong><%= @book.body %></P>
 
 <p><%= link_to "Edit", edit_book_path(@book.id) %> | <%= link_to "Back", books_path %></p>

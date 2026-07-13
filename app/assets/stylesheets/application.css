@@ -8,3 +8,60 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  margin: 33px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 0 0 20px;
+}
+
+h2 {
+  font-size: 16px;
+  padding: 6px 0;
+}
+
+p {
+  margin: 6px 0 0;
+}
+
+.top {
+  margin: 20px;
+}
+
+a {
+  color: #333;
+}
+
+table {
+  margin: 0 0 20px;
+  display: table;
+  box-sizing: border-box;
+  border-collapse: separate;
+  text-indent: initial;
+  unicode-bidi: isolate;
+  border-spacing: 5px;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}
+
+.show {
+  margin: 33px;
+}
