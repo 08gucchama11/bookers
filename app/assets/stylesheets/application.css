@@ -33,6 +33,11 @@ h2 {
   padding: 6px 0;
 }
 
+.success {
+  margin: 33px;
+  color: green;
+}
+
 p {
   margin: 6px 0 0;
 }
@@ -56,4 +61,22 @@ td {
 
 .show {
   margin: 33px;
+}
+
+.errors {
+  width: 500px;
+  background-color: red;
+  padding: 5px;
+}
+
+.errorcount {
+  color: #fff;
+  font-size: 15px;
+}
+
+ul {
+  width: 100%;
+  background-color: lightyellow;
+  margin-top: 5px;
+  padding: 33px;
 }
